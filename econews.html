@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title> Environmantal News </title>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <button id="logout" onclick="logout();" class="glyphicon glyphicon-log-out btn btn-danger">Logout</button>
+        <center>
+            <h1> Choose your Type of news</h1>
+            <br><br>
+            <button id="good_news" class="btn-primary" onclick="good_news()">Good News</button>
+            <br><br>
+            <button id="bad_news" class="btn-primary" onclick="bad_news()">Bad News</button>
+            <br><br>
+            <button id="help" class="btn-primary" onclick="howtohelp()">How to help save the Environment</button>
+        </center>
+        <script src="eco.js"></script>
+    </body>
+    </html>
